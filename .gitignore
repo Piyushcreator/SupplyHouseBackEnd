@@ -1,0 +1,83 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Maven build directory
+/target/
+
+# Eclipse IDE files
+/.classpath
+/.project
+/.settings/
+**/.classpath
+**/.project
+**/.settings/
+
+# IntelliJ IDEA files
+/.idea/
+/*.iml
+
+# Gradle files (if applicable, even in a Maven project)
+/.gradle/
+/build/
+
+# Java class files
+*.class
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Dependency directories
+/.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Optional: Ignore application properties files (if sensitive)
+# application.properties
+# application.yml
+
+# Optional: Ignore packaged files
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.tgz
+
+# Optional: Ignore IDE-specific temporary files
+/out/
